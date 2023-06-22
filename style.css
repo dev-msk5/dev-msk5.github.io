@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     color: aquamarine;
 }
@@ -6,24 +10,34 @@ body {
     background-color: #264040;
 }
 
+h3 {
+    font-size: 2.1vw;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    max-width: 70%;
+}
+
 #fo {
-    font-size: 110px;
+    font-size: 7vw;
     text-align: left;
     padding: 0% 0% 0% 18%;
     font-weight: bold; 
 }
 
-#deta {
-    font-size: 32px;
-    padding-right: 150px ;
-    padding-bottom: 20px;
+#shortdetails {
+    font-size: 3vw;
+    padding-right: 15% ;
+    padding-bottom: 2%;
 }
 
 hr {
     background-color: green;
     width: 90%;
     border-color: green;
-    height: 2px;
+    height: 0.15vw;
 }    
 
 #cont2 {
@@ -39,10 +53,18 @@ hr {
     align-items: center;
 }
 
+#contc { /* card container attributes */
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
     background-color: #00FA9A;
     width: 15%;
-    height: 300px;
+    height: 60%;
     text-align: center;
     margin: 5%;
     padding: 6% 0% 0 0%;
@@ -53,25 +75,14 @@ hr {
     font-size: 32px;
 }
 
-#contc { /* card container attributes */
-    display: flex;
-    width: 70%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-#projects {
-    font-size: 50px;
+#prosec {   /* projects header */
+    text-align: center;
+    font-size: 3vw;
     font-style: italic;
     font-weight: bold;
 }
 
-#prosec {
-    text-align: center;
-}
-
 .prodet {   /* projects details */
-    font-size: 36px;
+    font-size: 2.5vw;
     margin-left: 5%;
 }
